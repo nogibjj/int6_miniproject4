@@ -1,4 +1,5 @@
 # int6_miniproject4
+[![CI](https://github.com/nogibjj/int6_miniproject4/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/int6_miniproject4/actions/workflows/ci.yml)
 
 This repo contains work for mini-project 4. It sets up an environment on codespaces and uses Github Actions to run a Makefile for the following: `make install`, `make test`, `make format`, `make lint`. 
 
@@ -29,3 +30,6 @@ The purpose of this project is to use a Github actions matrix to test python cod
 3. Test code `make test`
 
 ![Passing test cases image](pass_test.png)
+
+## Matrix Build
+<img width="237" alt="Successful matrix build" src="matrix_build.png">
