@@ -1,7 +1,6 @@
-# int6_miniproject1
-[![CI](https://github.com/nogibjj/int6_miniproject1/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/int6_miniproject1/actions/workflows/ci.yml)
+# int6_miniproject4
 
-This repo contains work for mini-project 1. It sets up an environment on codespaces and uses Github Actions to run a Makefile for the following: `make install`, `make test`, `make format`, `make lint`. 
+This repo contains work for mini-project 4. It sets up an environment on codespaces and uses Github Actions to run a Makefile for the following: `make install`, `make test`, `make format`, `make lint`. 
 
 Some important components:
 
@@ -14,7 +13,11 @@ Some important components:
 * `githubactions` 
 
 ## Purpose of project
-The purpose of this project is to create a python template to use for later projects. The file main.py contains a simple "add" function that is tested in test_main.py. To make sure github actions is working properly, I use a Makefile to test various parts of my code.
+The purpose of this project is to use a Github actions matrix to test python code across multiple python versions and operating systems. This ensures that the workflow is compatible across different environments. The file main.py contains a simple "add" function that is tested in test_main.py. To make sure github actions is working properly, I use a Makefile to test various parts of my code.
+
+## Configurations Tested
+* Python 3.7, 3.8, 3.9, 3.11
+* OS: ubuntu-latest, windows-latest
 
 ## Preparation
 1. Open codespaces 
